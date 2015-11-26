@@ -14,6 +14,7 @@
                         <picker width="100" height="20" alignment="center" verticalAlignment="bottom" id="zsA-Dd-n2J"/>
                     </items>
                     <connections>
+                        <outlet property="picker" destination="zsA-Dd-n2J" id="Ahc-C4-9rA"/>
                         <outlet property="spinnerImage" destination="qqP-2M-PT6" id="usJ-tB-6cT"/>
                     </connections>
                 </controller>
