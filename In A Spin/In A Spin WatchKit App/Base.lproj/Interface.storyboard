@@ -11,14 +11,9 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="In_A_Spin_WatchKit_App" customModuleProvider="target">
                     <items>
                         <imageView alignment="center" id="qqP-2M-PT6"/>
-                        <button width="1" alignment="center" verticalAlignment="bottom" title="Button" id="WMx-w8-RSC">
-                            <connections>
-                                <action selector="buttonTapped" destination="AgC-eL-Hgc" id="zam-Lr-dFH"/>
-                            </connections>
-                        </button>
+                        <picker width="100" height="20" alignment="center" verticalAlignment="bottom" id="zsA-Dd-n2J"/>
                     </items>
                     <connections>
-                        <outlet property="button" destination="WMx-w8-RSC" id="ucn-Ou-7nz"/>
                         <outlet property="spinnerImage" destination="qqP-2M-PT6" id="usJ-tB-6cT"/>
                     </connections>
                 </controller>
